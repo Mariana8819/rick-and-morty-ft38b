@@ -1,0 +1,57 @@
+.container{
+    border: 2px solid rgb(61, 1, 51);
+    background-color: rgb(238, 183, 183);
+    border-radius: 8px ;
+    width: 170px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(174, 4, 123);
+    height:270px;
+    margin: 20px;
+    &:hover {
+        box-shadow: 0 0 5px grey;
+    }
+}
+
+.container image{
+    width: 140px;
+    box-shadow: 0 5px 5px black;
+    margin-top: 15px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonContainer button{
+    background-color: rgb(237, 174, 143);
+    color: rgb(43, 14, 191);
+    border: 4px;  
+    border-radius: 0px;
+    margin: 2px 2px 0 0 ;
+    box-shadow: 0 2px 2px black;
+    &:hover{
+        background-color: red;
+        color: pink;
+        box-shadow: 0 2px 2px white;
+    }
+
+}
+
+.dataContainer{
+text-align: center;
+padding: 10px;
+}
+.dataContainer h2{
+    margin: 2px;
+    font-size: 16px;
+    color: rgb(4, 77, 77);
+    
+}
+
+.dataContainer h4{
+    margin: 2px;
+    font-size: 14px;
+    color: rgb(1, 102, 102);
+    
+}
