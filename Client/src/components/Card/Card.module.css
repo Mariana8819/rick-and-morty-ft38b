@@ -1,0 +1,57 @@
+.container{
+    border: 2px solid rgb(6, 95, 3);
+    background-color: rgb(216, 247, 106);
+    border-radius: 8px ;
+    width: 170px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(0, 1, 58);
+    height:270px;
+    margin: 20px;
+    &:hover {
+        box-shadow: 0 0 5px grey;
+    }
+}
+
+.image{
+    width: 140px;
+    box-shadow: 0 5px 5px black;
+    margin-top: 10px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonContainer button{
+    background-color: rgb(237, 174, 143);
+    color: rgb(43, 14, 191);
+    border: 4px;  
+    border-radius: 0px;
+    margin: 2px 2px 0 0 ;
+    box-shadow: 0 2px 2px black;
+    &:hover{
+        background-color: red;
+        color: pink;
+        box-shadow: 0 2px 2px white;
+    }
+
+}
+
+.dataContainer{
+text-align: center;
+padding: 10px;
+}
+.dataContainer h2{
+    margin: 2px;
+    font-size: 16px;
+    color: rgb(4, 77, 77);
+    
+}
+
+.dataContainer h4{
+    margin: 2px;
+    font-size: 14px;
+    color: rgb(1, 102, 102);
+    
+}
